@@ -1,6 +1,6 @@
 # starship-modern-terminal
 
-Terminal Customization with [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+Terminal Customization with [Starship](https://starship.rs/)
 
 * install starship
 
@@ -19,6 +19,8 @@ eval "$(starship init bash)"
 Nerd Fonts are required for the graphics to display (any nerd font can work)
 
 Nerd Fonts can be downloaded from [nerdfonts.com](https://www.nerdfonts.com/font-downloads)
+
+If you want to further customize you can refer [starship](https://starship.rs/) documentation
 
 ![](https://github.com/abhishek-mallav/starship-modern-terminal/blob/main/starship-terminal-01.png)
 
