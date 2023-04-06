@@ -15,3 +15,7 @@ eval "$(starship init bash)"
 ```
 
 * paste the starship.toml file in .config directory
+
+![](https://github.com/abhishek-mallav/starship-modern-terminal/blob/main/starship-terminal-01.png)
+
+![](https://github.com/abhishek-mallav/starship-modern-terminal/blob/main/starship-terminal-02.png)
