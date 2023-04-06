@@ -19,3 +19,5 @@ eval "$(starship init bash)"
 ![](https://github.com/abhishek-mallav/starship-modern-terminal/blob/main/starship-terminal-01.png)
 
 ![](https://github.com/abhishek-mallav/starship-modern-terminal/blob/main/starship-terminal-02.png)
+
+![](https://github.com/abhishek-mallav/starship-modern-terminal/blob/main/starship-terminal-03.png)
