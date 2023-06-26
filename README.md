@@ -19,6 +19,8 @@ Terminal Customization with [Starship](https://starship.rs/)
    ```
 4. paste the starship.toml file in .config directory
 
+----
+
 
 
 Nerd Fonts are required for the graphics to display (any nerd font can work)
