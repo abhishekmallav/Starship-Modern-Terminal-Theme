@@ -1,4 +1,4 @@
-# starship-modern-terminal
+# STARSHIP-Modern-Terminal-Theme
 
 Terminal Customization with [Starship](https://starship.rs/)
 
