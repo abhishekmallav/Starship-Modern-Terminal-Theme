@@ -5,7 +5,7 @@ add_newline = true
 
 # Change the default prompt format
 format = """\
-[╭╴](238)$env_var\
+[╭╴](238)$battery $env_var\
 $all[╰─](238)$character"""
 
 # Change the default prompt characters
@@ -87,3 +87,30 @@ disabled = false
 "clcreative-k8s-staging" = "cl-k8s-staging"
 "clcreative-k8s-production" = "cl-k8s-prod"
 
+# Battery configuration
+[battery]
+full_symbol = '󰁹 '         # Symbol for full battery
+charging_symbol = '󱐋 '    # Symbol for charging battery
+discharging_symbol = '󱊣 ' # Symbol for discharging battery (low battery)
+empty_symbol = '󰂎 '       # Symbol for empty battery
+unknown_symbol = '󰁽 '    # Symbol for unknown battery status
+format = "[$symbol$percentage]($style)" # Format for displaying battery percentage
+disabled = false  # Enable the battery module
+
+# Battery display thresholds
+[[battery.display]]
+threshold = 10
+style = "bold red"  # Red bold style when battery is below 10%
+
+[[battery.display]]
+threshold = 30
+style = "bold yellow"  # Yellow style when battery is between 10% and 30%
+
+[[battery.display]]
+threshold = 50
+style = "bold green"  # Green style when battery is between 30% and 50%
+
+[[battery.display]]
+threshold = 100
+style = "bold green"  # Green style when battery is fully charged
+charging_symbol = '󱐋 '  # Charging symbol when battery is charging
